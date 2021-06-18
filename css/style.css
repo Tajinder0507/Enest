@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: arial;
+}
+.header{
+	width:1000px;
+	margin:auto;
+	height:100px;
+}
+.maincontainer {
+    width: 100%;
+    background-color: #295979;
+    height: 35px;
+}
+.innercontainer {
+    width: 1000px;
+    margin: auto;
+    color: white;
+    font-size: 10px;
+}
+.innercontainer h2 {
+    float: left;
+    margin: 0;
+    margin-top: 7px;
+}
+.footer {
+    height: 35px;
+    background-color: #295979;
+}
+.maincontainer1 {
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+}
+.innercontainer1 {
+    width: 1000px;
+    margin: auto;
+}
+.left {
+    float: left;
+    width: 225px;
+}
+.right1 {
+    float: left;
+    margin-left: 28px;
+    width: 747px;
+
+}
+.left ul {
+    border: 1px solid grey;
+    margin: 0;
+    padding: 0;
+	list-style:none;
+}
+.left li {
+    border-bottom: 1px solid grey;
+    padding: 6px 0px;
+    padding-left: 10px;
+    padding-right: 64px;
+}
+.left span {
+    color: #295979;
+    font-weight: bold;
+}
+.left .s {
+    font-size: 11px;
+}
+.left .t {
+    padding-top: 35px;
+}
+
+.right1 h3 {
+    color: #295979;
+    margin-bottom: 0;
+}
+.tab {
+	border:1px solid #000;
+	border-collapse:collapse;
+}
+.tab th {
+	border:1px solid #000;
+	text-align:left;
+}
+.tab td {
+	border-bottom:1px solid #000;
+}
+.tab select {
+    width: 176px;
+}
+.tab button {
+    background-color: blue;
+    outline: none;
+    color: white;
+    margin-left: 6px;
+}
+.tab .s {
+    margin-left: 146px;
+}
