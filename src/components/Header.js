@@ -90,10 +90,10 @@ class Header extends React.Component {
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="mr-auto float-start col-md-8">
                     <Nav.Link className="list_color" href="/">HOME</Nav.Link>
-                    <Nav.Link className="list_color" href="/new-products">NEW PRODUCTS</Nav.Link>
-                    <Nav.Link className="list_color" href="/special-products">SPECIAL</Nav.Link>
-                    <Nav.Link className="list_color" href="/all-products">ALL PRODUCTS</Nav.Link>
-                    <Nav.Link className="list_color" href="/contact">CONTACT</Nav.Link>
+                    <Nav.Link className="list_color" href="new-products">NEW PRODUCTS</Nav.Link>
+                    <Nav.Link className="list_color" href="special-products">SPECIAL</Nav.Link>
+                    <Nav.Link className="list_color" href="all-products">ALL PRODUCTS</Nav.Link>
+                    <Nav.Link className="list_color" href="contact">CONTACT</Nav.Link>
                   </Nav>
                   <Form className="d-flex float-end search_form" onsubmit={this.addForm}>
                     <FormControl
